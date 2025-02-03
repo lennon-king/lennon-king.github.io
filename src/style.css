@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.navbar-background {
+    position: fixed; /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(24, 20, 20);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    z-index: 1000;
+}
+
+.intro-background {
+    position: relative; /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(24, 20, 20, 0.9);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+/* Style the navigation bar */
+.navbar-nav {
+    font-family: "Josefin Sans", sans-serif;
+    top: 0;  
+    right: 0;
+    justify-content: right;
+    position: fixed;
+    margin-top: 36px;
+    margin-right: 72px;
+    z-index: 1000;
+}
+
+.navbar-handle {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-weight: 480;
+    font-size: 24px;
+    position: fixed;
+    top: 0;  
+    left: 0;
+    z-index: 1000;
+    margin-top: 52px;
+    margin-left: 72px;
+    justify-content: left;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 64px;  /* Space out the links */
+    font-weight: 320;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;  /* Change color on hover */
+}
+
+/* Style the intro text */
+.intro-text {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-size: 64px;
+    line-height: 1.2;
+    margin-top: 240px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.intro-text p {
+    margin: 5px 0;
+}
+
+/* Style the about me text */
+.about-me-text {
+    margin-bottom: 32px;
+    margin-top: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 320;
+    margin-bottom: 200px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.about-me-text p {
+    margin: 5px 0;
+}
