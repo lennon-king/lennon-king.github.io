@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import SHPEScreens from './SHPE_screens.png';
