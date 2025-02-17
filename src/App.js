@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
@@ -18,6 +19,23 @@ function App() {
         <Route path="/Redesigned-SHPE-UF-Website" element={<RedesignedWebsite />} />
       </Routes>
     </Router>
+=======
+import logo from './logo.svg';
+import './App.css';
+import './style.css';
+
+import Header from "./Header.js"
+import Footer from "./Footer.js"
+import Body from "./Body.js"
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <Body />
+      <Footer />
+    </div>
+>>>>>>> 061b69b (Updated navbar styling and structure)
   );
 }
 

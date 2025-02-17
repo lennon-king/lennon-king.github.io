@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import SHPEScreens from './SHPE_screens.png';
@@ -70,3 +71,16 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from "react";
+
+function Body() {
+    return (
+        <header>
+            This is the body
+        </header>
+    )
+}
+
+export default Body
+>>>>>>> 061b69b (Updated navbar styling and structure)
