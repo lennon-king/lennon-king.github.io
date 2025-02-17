@@ -2,7 +2,6 @@ import React from "react";
 
 function Footer() {
     return (
-<<<<<<< HEAD
         <header className="footer-background">
         <>
             <div className="footer-email">
@@ -13,10 +12,6 @@ function Footer() {
                 <a href="tel:+16892130729">(689) 213-0729</a>
             </div>
         </>
-=======
-        <header>
-            This is the footer
->>>>>>> 061b69b (Updated navbar styling and structure)
         </header>
     )
 }
