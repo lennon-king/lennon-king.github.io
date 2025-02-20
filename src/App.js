@@ -9,7 +9,7 @@ import RedesignedWebsite from './pages/RedesignedWebsite.js';
 
 function App() {
   return (
-    <Router>
+     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/SHPE-UF-Offical-App" element={<SHPEUFOfficalApp />} />
         <Route path="/Redesigned-SHPE-UF-Website" element={<RedesignedWebsite />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
