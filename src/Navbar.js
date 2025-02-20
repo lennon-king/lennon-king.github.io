@@ -1,23 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <>
-            {/* Navbar Section */}
-            <div className="navbar-background">
-                <nav className="navbar-nav">
-                    <a href="/" className="navbar-handle">lennon.king</a>
-                    <ul className="nav-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="projects">Projects</a></li>
-                        <li><a href="/Lennon_King_Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <div className="navbar-background">
+            <nav className="navbar-nav">
+                <Link to="/" className="navbar-handle">lennon.king</Link>
+                <ul className="nav-links">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li>
+                        <a href="/Lennon_King_Resume.pdf" target="_blank" rel="noopener noreferrer">
                             Resume
-                        </a></li>
-                        <li><a href="contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </>
+                        </a>
+                    </li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+            </nav>
+        </div>
     );
 }
 
