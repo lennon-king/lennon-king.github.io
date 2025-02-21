@@ -1,18 +1,19 @@
-import logo from '../logo.svg';
 import '../App.css';
 import '../style.css';
+import { useEffect } from "react";
 
 import Header from "../Header.js"
-import ContactMe from "../ContactMe.js"
 import Footer from "../Footer.js"
 import Body from "../Body.js"
 import Navbar from "../Navbar.js"
 import Background from '../Background.js';
 import Contact from '../ContactMe.js';
 
-document.body.style.overflow = 'auto';
-
 function Home() {
+    useEffect(() => {
+        document.body.style.overflow = 'auto';
+    }, []);
+
     return (
         <div>
             <Navbar />
