@@ -1,5 +1,6 @@
 import '../App.css';
 import '../style.css';
+import { useEffect } from "react";
 
 import Footer from "../Footer.js"
 import Navbar from "../Navbar.js"
@@ -7,6 +8,10 @@ import Background from '../Background.js'
 import ContactMe from '../ContactMe.js'
 
 function Contact() {
+    useEffect(() => {
+        {document.body.style.overflow = 'hidden'};
+    }, []);
+
     return (
         <div>
             <Navbar />
@@ -15,10 +20,7 @@ function Contact() {
             <ContactMe />
             <Footer />
             <Background />
-            {document.body.style.overflow = 'hidden'}
         </div>
     );
 }
-
-
 export default Contact;
