@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2da82776.css",
-    "main.js": "/static/js/main.b6aad63f.js",
+    "main.css": "/static/css/main.43a9c77f.css",
+    "main.js": "/static/js/main.57809f1c.js",
     "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
     "static/media/web_finished.png": "/static/media/web_finished.a03d9960065c270ba7ab.png",
     "static/media/web_refined.png": "/static/media/web_refined.4bea4ea4fd4eadb05c64.png",
@@ -16,16 +16,17 @@
     "static/media/Notification_Screen.png": "/static/media/Notification_Screen.a0e451250868f4c48978.png",
     "static/media/LoanShark.png": "/static/media/LoanShark.b2ff22278a04b71a547d.png",
     "static/media/Register_Prototype.png": "/static/media/Register_Prototype.f3a8726be588acc83414.png",
+    "static/media/Mouse_Running_1_Scaled_Up.gif": "/static/media/Mouse_Running_1_Scaled_Up.21a6d94951b927bf665f.gif",
     "static/media/Points_Page.png": "/static/media/Points_Page.623d47a73da7e3eccb64.png",
     "static/media/Register_Finished.png": "/static/media/Register_Finished.ae0294be1e3ce324888b.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.2da82776.css.map": "/static/css/main.2da82776.css.map",
-    "main.b6aad63f.js.map": "/static/js/main.b6aad63f.js.map",
+    "main.43a9c77f.css.map": "/static/css/main.43a9c77f.css.map",
+    "main.57809f1c.js.map": "/static/js/main.57809f1c.js.map",
     "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da82776.css",
-    "static/js/main.b6aad63f.js"
+    "static/css/main.43a9c77f.css",
+    "static/js/main.57809f1c.js"
   ]
 }
