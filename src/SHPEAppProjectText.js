@@ -1,15 +1,8 @@
-import React from 'react';
-import ProjectCard from './ProjectCard';
-import SHPEScreens from './SHPE_screens.png';
-import SHPEWebsiteOld from './SHPE_website_old.png';
-import LoanShark from './LoanShark.png';
-import lennon_king from "./lennon.king.png"
-import mockup_1 from "./SHPE_app_mockup_1.jpeg"
-import mockup_2 from "./Register_Prototype.png"
-import mockup_3 from "./Register_Finished.png"
-import mockup_4 from "./Notification_Screen.png"
-import mockup_5 from "./Points_Page.png"
-import mockup_6 from "./SHPE-appstore.png"
+
+import mockup_1 from "./AIPrivacy.jpg"
+import mockup_2 from "./AI.webp"
+import mockup_3 from "./Forgetfullness.webp"
+import mockup_4 from "./Safety.jpg"
 
 const App = () => {
     return (
@@ -18,106 +11,117 @@ const App = () => {
             <img className="SHPE_App_Mockup_1" src={mockup_1} alt={""}/>
 
             <div className="project-header-text"> 
-                SHPE UF APP 
+                Who We Are
+            </div>
+
+            <div className="project-body-text">
+                The Forget Me Project is a research-driven, ethics-first organization dedicated to reshaping how artificial 
+                intelligence remembers—and how it forgets. We were founded on a simple belief: not all memory is moral. In a 
+                digital world designed for total recall, we advocate for AI systems that honor privacy, dignity, and the human 
+                need for closure.
+            </div>
+
+            <div className="project-body-text">
+                Our work brings together engineers, designers, ethicists, and policymakers to challenge the default 
+                assumption that more data is always better. Instead, we champion ethical amnesia: AI that forgets intentionally, 
+                compassionately, and in alignment with human moral frameworks.
+            </div>
+
+            <div className="project-header-text"> 
+                What We Do
             </div>
 
             <div className="project-sub-header-text"> 
-                The Start of Something Great
+                Build Ethical Frameworks for Forgetful AI
             </div>
 
             <div className="project-body-text">
-                The Society of Hispanic Professional Engineers at the University of Florida has a new app! Designed by our UI/UX
-                team, this app connects our members through event tracking, reminders and notifications, and participation
-                tracking. We are actively updating the app, providing new features and improvements.
-            </div>
-
-            <div className="project-body-text">
-                The entire app is quite large, so this page will summarize some key features and points of development. For the
-                full experience, give the app a try!
+                We develop guidelines, technical standards, and conceptual models for integrating “moral timers” into AI memory systems.
+                These frameworks shift deletion from a negligible backend function to a core ethical behavior, ensuring that data 
+                retention is guided not only by utility, but by care, humility, and respect for human growth.
             </div>
 
             <div className="project-sub-header-text"> 
-                Registration and Sign in Screens 
+                Design Human-Centered Prototypes
             </div>
 
             <div className="project-body-text">
-                The registration and sign in page underwent two major points in development: the initial prototype
-                (top) and the final version (bottom).
+                Our flagship prototype, Digital Amnesia, demonstrates how AI can erase sensitive inputs after user-defined moral 
+                intervals. Instead of hoarding personal histories, the system treats memory as a moral object with a life cycle—one 
+                that can release, forgive, and make space for change.
             </div>
 
-            <img className="SHPE_App_Mockup_1" src={mockup_2} alt={""}/>
+            <div className="project-sub-header-text"> 
+                Promote Transparent Data Culture
+            </div>
+
+            <div className="project-body-text">
+                We help organizations replace vague retention policies with clear, ritualized deletion logic that users can trust. 
+                Through workshops and audits, we assist engineers in designing systems that are both technically honest and ethically 
+                grounded—no “fake deletions,” no hidden archives.
+            </div>
 
             <img className="SHPE_App_Mockup_1" src={mockup_3} alt={""}/>
-           
-            <div className="project-body-text">
-                Some key changes were made between the
-                prototype and final version. Most strikingly, the
-                color pallet was overhauled and standardized
-                across the app, and a gator motif was established.
+
+            <div className="project-header-text"> 
+                What We’ve Done
             </div>
 
             <div className="project-sub-header-text"> 
-                Notification Screen
+                Developed the Moral TTL (Time-to-Live) Standard
             </div>
 
             <div className="project-body-text">
-                The initial prototype of the notification system used a
-                standard toggle setting as can be found on most
-                devices. While this system works, our team prioritizes
-                finding more enjoyable ways for our users to interact
-                with our app beyond basic options.
+                A novel approach to data life cycles, allowing information to “decay” or self-erode based on context—such as 
+                trauma markers, confessional speech, or user-defined moral expiration intervals.
+            </div>
+
+            <div className="project-sub-header-text"> 
+                Launched the Digital Amnesia MVP
+            </div>
+
+            <div className="project-body-text">
+                A fully functional prototype that performs contextual, not just automatic, forgetting—demonstrating how AI can 
+                honor symbolic closure and reduce long-term psychological harm.
             </div>
 
             <img className="SHPE_App_Mockup_1" src={mockup_4} alt={""}/>
 
-            <div className="project-body-text">
-                In the revised version, beyond sizing and positioning
-                changes, we adjusted the toggle system to encompass
-                each option’s respective icon. When selected, the icon
-                will become orange to show its activation.
+            <div className="project-header-text"> 
+                Why It Matters
             </div>
 
             <div className="project-sub-header-text"> 
-                Points Program Screen
+                Because AI That Never Forgets Can Hurt People
             </div>
 
             <div className="project-body-text">
-                The notification screen was the first screen designed for
-                the SHPE UF app and underwent the greatest change.
-                The initial design (left) suffers from poor visual hierarchy:
-                while the redeem button is arguably the most important
-                function of the initial design, the garish color choices for
-                the seasonal icons distracts the user. Additionally, the
-                layout of the design is very top-heavy and becomes
-                partially covered by modern phone camera notches. 
+                When personal data is stored indefinitely, individuals become trapped in their pasts. Old messages, private exchanges, 
+                confessions, and traumas reappear out of context—algorithmically resurfaced long after their relevance has passed. 
+                This creates cycles of anxiety, shame, and misjudgment, especially for vulnerable communities.
             </div>
 
-            <img className="SHPE_App_Mockup_2" src={mockup_5} alt={""}/>
-
-            <div className="project-body-text">
-                In the revised version, beyond sizing and positioning
-                changes, we adjusted the toggle system to encompass
-                each option’s respective icon. When selected, the icon
-                will become orange to show its activation.
+            <div className="project-sub-header-text"> 
+                The Law is Changing
             </div>
 
             <div className="project-body-text">
-                The revised design uses gentler colors and places more
-                emphasis on the redeem button through positioning to the
-                screen’s center and adding whitespace around the button.
+                Regulations like GDPR Article 17 and California AB 1008 increasingly demand meaningful, enforceable deletion. 
+                Organizations that cannot forget responsibly risk legal penalties and public backlash. Ethical forgetting is rapidly 
+                becoming not just a moral imperative—but a compliance requirement.
             </div>
 
             <div className="project-header-text"> 
-                AVAILABLE NOW!
+                Our Vision
             </div>
 
             <div className="project-body-text">
-                The SHPE UF app is now available for iOS and is in beta testing for Android devices. Upcoming version updates
-                will include a QR code scanner for easy point redemption and an interactive map interface to navigate to events.
-                The full app includes many more pages and features than those showcased here, so be sure to check it out!
-            </div> 
+                We imagine a future where AI systems behave less like permanent surveillance archives and more like humane 
+                partners—capable of discretion, forgiveness, and intentional release. We envision digital spaces where memory 
+                serves growth rather than punishment, and where users regain sovereignty over how long their stories are allowed to live.
+            </div>
 
-            <img className="SHPE_App_Mockup_2" src={mockup_6} alt={""}/>
+            <img className="SHPE_App_Mockup_1" src={mockup_2} alt={""}/>
         </div>
     </>
     );

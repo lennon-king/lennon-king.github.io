@@ -6,7 +6,7 @@ function Header() {
             <div className="intro-background">
             {/* Main Header Content (Intro & About Me) */}
                 <div className="shpe-app-intro-text">
-                        SHPE UF's Mobile App
+                    Why This Matters
                 </div>
             </div>
         </>

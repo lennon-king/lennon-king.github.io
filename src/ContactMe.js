@@ -38,7 +38,7 @@ const MessageInput = () => {
 
   return (
     <form className="input-container" onSubmit={sendEmail}>
-      <label className="contact-me-label">Lets Chat!</label>
+      <label className="contact-me-label">Want to Stay Updated?</label>
       <label className="name-label">Name</label>
       <textarea className="name-input"
         type="text"
@@ -57,16 +57,8 @@ const MessageInput = () => {
         placeholder="Your email"
         required
       />
-      <label className="name-label">Message</label>
-      <textarea className="message-input"
-        type="message"
-        id="message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        placeholder="Your message"
-        required
-      />
-      <button type="submit" className="send-button">Send</button>
+
+      <button type="submit" className="send-button">Subscribe!</button>
       {status && <p className="status-message">{status}</p>}
     </form>
   );

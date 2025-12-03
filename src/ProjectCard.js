@@ -11,7 +11,7 @@ const ProjectCard = ({ title, description, image, link }) => {
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
         <a className="view-project-button" href={link} target="" rel="noopener noreferrer">
-          View Project
+          See More
         </a>
       </div>
     </div>

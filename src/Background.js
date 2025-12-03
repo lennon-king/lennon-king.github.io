@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "./my_face.jpg"
+import Background from "./Office.jpg"
 
 function Footer() {
     return (

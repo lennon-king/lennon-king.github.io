@@ -10,6 +10,7 @@
   font-weight: 320;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 5%;
 }
 
 .about-me-text p {
@@ -97,7 +98,7 @@
   font-weight: 600;
   display: flex;
   justify-content: center; /* Centers horizontally */
-  margin-top: 1%;
+  margin-top: 7%;
   margin-bottom: 3%;
 }
 
@@ -161,14 +162,16 @@
 }
 
 .intro-background {
-  background-color: rgb(24, 20, 20, 0.85);
-  padding: 64px 40px;
+  background-color: rgb(24, 20, 20, 0.6);
+  padding: 64px 40px; 
 }
+
 
 .input-container {
   background-color: rgb(24, 20, 20, 0.8);
   padding-top: 3.4%;
   padding-bottom: 3.4%;
+  height: 60vh;           /* Makes the container take up the full height of the viewport */
 }
 
 .intro-text {
@@ -178,7 +181,7 @@
   line-height: 1.2;
   max-width: 60%;
   margin-left: 20%;  /* Automatically adjusts left margin */
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .input_box {
@@ -413,12 +416,22 @@
   background-color: rgb(24, 20, 20);
   font-size: 24px;
   color: whitesmoke;
+
+  /* Layout fixes */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 60px;
-  justify-content: center;
+  flex-direction: column; /* so lines stack */
+  align-items: flex-start;
+  line-height: 1.6; /* ADD LINE SPACING */
+
+  /* Width constraint */
+  max-width: 900px;   /* prevents full-page stretch */
+  margin: 0 auto;     /* centers the box */
+
+  /* Responsive padding */
+  padding: 40px min(27vw) 80px;
+  /* top | horizontal (scales with screen) | bottom */
 }
+
 
 .project-description {
   font-size: 1rem;
@@ -514,9 +527,11 @@
   line-height: 1.2;
   color: whitesmoke;
   margin-top: 8%;
+  /* Center the text container */
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  width: 38%;
+  text-align: center;
 }
 
 .shpe-app-intro-extra-spacing{
@@ -591,9 +606,18 @@
     padding: 3% 6%;
   }
 
+  /* Project card responsive fix */
+  .app-container {
+    display: flex;
+    flex-direction: column; /* stack cards vertically */
+    align-items: center;    /* center each card */
+    gap: 20px;              /* spacing between cards */
+  }
+
   .project-card {
-    width: 90%;
-    height: auto;
+    width: 90%;    /* full width for mobile */
+    max-width: 100%;
+    height: auto;  /* let height adjust to content */
     margin: 0 auto;
   }
 
@@ -627,5 +651,15 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .background-bar-top {
+    height: 12%;
+    background-color: rgba(24, 20, 20, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
   }
 }
