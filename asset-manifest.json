@@ -1,32 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac4def49.css",
-    "main.js": "/static/js/main.3b36883f.js",
-    "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
+    "main.css": "/static/css/main.0dc0c50d.css",
+    "main.js": "/static/js/main.eeefc48e.js",
+    "static/js/488.91869224.chunk.js": "/static/js/488.91869224.chunk.js",
     "static/media/web_finished.png": "/static/media/web_finished.a03d9960065c270ba7ab.png",
     "static/media/web_refined.png": "/static/media/web_refined.4bea4ea4fd4eadb05c64.png",
     "static/media/SHPE_app_mockup_1.jpeg": "/static/media/SHPE_app_mockup_1.63e2fe01fb37325ca96e.jpeg",
     "static/media/original_website.png": "/static/media/original_website.d8039c38816d5c13ded0.png",
-    "static/media/SHPE-appstore.png": "/static/media/SHPE-appstore.df113727d95d7bfef3f4.png",
-    "static/media/my_face.jpg": "/static/media/my_face.3ba22bdde46aba162206.jpg",
     "static/media/lennon.king.png": "/static/media/lennon.king.156e9b534e5bb6b25f19.png",
+    "static/media/Brain.png": "/static/media/Brain.9f9990b8ffe9fa5f65f0.png",
     "static/media/SHPE_screens.png": "/static/media/SHPE_screens.19ac6bbc64b46f42246c.png",
+    "static/media/Office.jpg": "/static/media/Office.42515949087c8372ea13.jpg",
     "static/media/web_proto.png": "/static/media/web_proto.ddcaa48b9a4d1257b8f8.png",
     "static/media/SHPE_website_old.png": "/static/media/SHPE_website_old.344d0c5fcb73bb4daa26.png",
     "static/media/Notification_Screen.png": "/static/media/Notification_Screen.a0e451250868f4c48978.png",
     "static/media/LoanShark.png": "/static/media/LoanShark.b2ff22278a04b71a547d.png",
     "static/media/Register_Prototype.png": "/static/media/Register_Prototype.f3a8726be588acc83414.png",
-    "static/media/Mouse_Running_1_Scaled_Up.gif": "/static/media/Mouse_Running_1_Scaled_Up.21a6d94951b927bf665f.gif",
     "static/media/Points_Page.png": "/static/media/Points_Page.623d47a73da7e3eccb64.png",
     "static/media/Register_Finished.png": "/static/media/Register_Finished.ae0294be1e3ce324888b.png",
+    "static/media/AIPrivacy.jpg": "/static/media/AIPrivacy.83ef394068ea2c61cad8.jpg",
+    "static/media/AI.webp": "/static/media/AI.6fc7861562a023066272.webp",
+    "static/media/Safety.jpg": "/static/media/Safety.bf2d71fefc537d53d4aa.jpg",
+    "static/media/Forgetfullness.webp": "/static/media/Forgetfullness.8beb0af4ffeceaf3f283.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.ac4def49.css.map": "/static/css/main.ac4def49.css.map",
-    "main.3b36883f.js.map": "/static/js/main.3b36883f.js.map",
-    "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
+    "main.0dc0c50d.css.map": "/static/css/main.0dc0c50d.css.map",
+    "main.eeefc48e.js.map": "/static/js/main.eeefc48e.js.map",
+    "488.91869224.chunk.js.map": "/static/js/488.91869224.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac4def49.css",
-    "static/js/main.3b36883f.js"
+    "static/css/main.0dc0c50d.css",
+    "static/js/main.eeefc48e.js"
   ]
 }
