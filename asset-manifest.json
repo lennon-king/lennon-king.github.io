@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aedde698.css",
+    "main.js": "/static/js/main.658bdde5.js",
+    "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
+    "static/media/web_finished.png": "/static/media/web_finished.a03d9960065c270ba7ab.png",
+    "static/media/web_refined.png": "/static/media/web_refined.4bea4ea4fd4eadb05c64.png",
+    "static/media/SHPE_app_mockup_1.jpeg": "/static/media/SHPE_app_mockup_1.63e2fe01fb37325ca96e.jpeg",
+    "static/media/original_website.png": "/static/media/original_website.d8039c38816d5c13ded0.png",
+    "static/media/SHPE-appstore.png": "/static/media/SHPE-appstore.df113727d95d7bfef3f4.png",
+    "static/media/my_face.jpg": "/static/media/my_face.3ba22bdde46aba162206.jpg",
+    "static/media/lennon.king.png": "/static/media/lennon.king.156e9b534e5bb6b25f19.png",
+    "static/media/SHPE_screens.png": "/static/media/SHPE_screens.19ac6bbc64b46f42246c.png",
+    "static/media/web_proto.png": "/static/media/web_proto.ddcaa48b9a4d1257b8f8.png",
+    "static/media/SHPE_website_old.png": "/static/media/SHPE_website_old.344d0c5fcb73bb4daa26.png",
+    "static/media/Notification_Screen.png": "/static/media/Notification_Screen.a0e451250868f4c48978.png",
+    "static/media/LoanShark.png": "/static/media/LoanShark.b2ff22278a04b71a547d.png",
+    "static/media/Register_Prototype.png": "/static/media/Register_Prototype.f3a8726be588acc83414.png",
+    "static/media/Points_Page.png": "/static/media/Points_Page.623d47a73da7e3eccb64.png",
+    "static/media/Register_Finished.png": "/static/media/Register_Finished.ae0294be1e3ce324888b.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.aedde698.css.map": "/static/css/main.aedde698.css.map",
+    "main.658bdde5.js.map": "/static/js/main.658bdde5.js.map",
+    "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aedde698.css",
+    "static/js/main.658bdde5.js"
+  ]
+}
